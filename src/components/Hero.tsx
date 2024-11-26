@@ -1,4 +1,5 @@
 import React from 'react';
+import { AnimatedTitle } from './AnimatedTitle';
 
 export function Hero() {
   return (
@@ -12,11 +13,9 @@ export function Hero() {
     >
       <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <h1 className="text-6xl md:text-7xl font-bold mb-6 text-pink-500">
-          Pink Pepe Coin
-        </h1>
+        <AnimatedTitle />
         <p className="text-2xl md:text-3xl mb-8 text-pink-200">
-          $TUCI - The Pinkest Meme Coin in the Galaxy
+          $PINK - The Pinkest Meme Coin in the Galaxy
         </p>
         <div className="flex gap-4 justify-center">
           <a href="#" className="bg-pink-500 hover:bg-pink-600 text-white px-8 py-3 rounded-full font-bold transition-all">
